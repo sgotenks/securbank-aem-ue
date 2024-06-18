@@ -1,8 +1,8 @@
 {
   "mappings": [
-    "/content/securbank-aem-ue/:/",
-    "/content/securbank-aem-ue/placeholders:/placeholders.json",
+    "/content/securbank/:/",
+    "/content/securbank/placeholders:/placeholders.json",
     "/graphql:/graphql",
-    "/content/securbank-aem-ue.resource/icons/:/icons/"
+    "/content/securbank.resource/icons/:/icons/"
   ]
 }
