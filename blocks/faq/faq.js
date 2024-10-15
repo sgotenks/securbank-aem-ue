@@ -6,14 +6,14 @@ export default async function decorate(block) {
   const cachebuster = Math.floor(Math.random() * 1000);
 
   //const url = `https://publish-p129757-e1266090.adobeaemcloud.com/graphql/execute.json/securbank/FAQListbyTag;tag=${firsttag};variation=${variationname}?ts=${cachebuster}`;
-  const aempublishurl = `https://publish-p129757-e1266090.adobeaemcloud.com`;
-  const aemauthorurl = `https://author-p129757-e1266090.adobeaemcloud.com`;
-  const persistedquery = '/graphql/execute.json/securbank/FAQListbyTag;tag=${firsttag};variation=${variationname}?ts=${cachebuster}';
+  const aempublishurl = 'https://publish-p129757-e1266090.adobeaemcloud.com';
+  const aemauthorurl = 'https://author-p129757-e1266090.adobeaemcloud.com';
+  const persistedquery = '/graphql/execute.json/securbank/FAQListbyTag';
   const options = {};
 
   const url = window.location && window.location.origin && window.location.origin.includes('author')
-    ? `${aemauthorurl}${persistedquery}`
-    : `${aempublishurl}${persistedquery}`;
+    ? `${aemauthorurl}${persistedquery};tag=${firsttag};variation=${variationname}?ts=${cachebuster}`
+    : `${aempublishurl}${persistedquery};tag=${firsttag};variation=${variationname}?ts=${cachebuster}`;
   
   const faq = await fetch(url, options);
   const index = await faq.json();
