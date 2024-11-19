@@ -376,5 +376,36 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "columns-speck",
+    "fields": [
+      {
+        "component": "text-input",
+        "name": "classes",
+        "label": "Style",
+        "valueType": "string",
+        "required": true        
+      }
+    ]
+  },
+  {
+    "id": "column-speck",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text-area",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
   }
 ]
