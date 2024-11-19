@@ -1,0 +1,111 @@
+.columns-speck > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns-speck img {
+  width: 100%;
+}
+
+.columns-speck > div > div {
+  order: 1;
+}
+
+.columns-speck > div > .columns-speck-img-col {
+  order: 0;
+}
+
+.columns-speck > div > .columns-speck-img-col img {
+  display: block;
+}
+
+@media (width >= 900px) {
+  .columns-speck > div {
+    align-items: center;
+    flex-direction: unset;
+    gap: 24px;
+  }
+
+  .columns-speck > div > div {
+    flex: 1;
+    order: unset;
+  }
+}
+
+.columns-speck picture {
+  position: relative;
+}
+
+.columns-speck picture:after {
+    content: "";
+    background: url(/icons/icons.png);
+    background-size: 600px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 10;
+    right: 15px;
+    bottom: -23px;
+    -webkit-filter: drop-shadow(2px 1px 2px #656565);
+    filter: drop-shadow(2px 1px 2px #656565);
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    background-position: -296px -352px;
+}
+
+.columns-speck h2{
+  margin-top: 50px;
+  text-align: left;
+  text-transform: none;
+}
+
+.columns-speck p{
+  text-align: left;
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+.columns-speck{
+  margin-top: 40px;
+}
+
+.columns-speck .sc-readMore{
+  width: 390px;
+  text-align: right;
+  position: relative;
+  /* bottom: -4px; */
+  background-color: #fff;
+  color: #000;
+  padding: 3px 0;
+  text-decoration: none;
+}
+
+.columns-speck .sc-readMore a{
+  background-image: url(/icons/icons.png);
+  background-repeat: no-repeat;
+  vertical-align: bottom;
+  background-size: 600px;
+  text-shadow: 0 0 black;
+  display: block;
+  padding-top: 30px;
+}
+
+.columns-speck .sc-readMore span:before{
+  content: " ";
+  border-left: 16px solid #fff;
+}
+
+.columns-speck .sc-readMore span:after{
+  content: " ";
+  background: url(/icons/icons.png);
+  background-size: 600px;
+  width: 13px;
+  height: 10px;
+  display: inline-block;
+  background-position: 3px -1091px;
+}
+
+.columns-speck .sc-readMore span{
+  color: black;
+  font-weight: bold;
+}
