@@ -382,29 +382,17 @@
     "fields": [
       {
         "component": "text-input",
-        "name": "classes",
-        "label": "Style",
-        "valueType": "string",
-        "required": true        
-      }
-    ]
-  },
-  {
-    "id": "column-speck",
-    "fields": [
-      {
-        "component": "reference",
-        "valueType": "string",
-        "name": "image",
-        "label": "Image",
-        "multi": false
+        "valueType": "number",
+        "name": "columns-speck",
+        "value": "",
+        "label": "Columns Speck"
       },
       {
-        "component": "text-area",
-        "name": "text",
+        "component": "text-input",
+        "valueType": "number",
+        "name": "rows",
         "value": "",
-        "label": "Text",
-        "valueType": "string"
+        "label": "Rows"
       }
     ]
   }
