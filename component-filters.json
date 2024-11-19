@@ -47,8 +47,16 @@
   },
   {
     "id": "columns-speck",
+    "components": []
+  },
+  {
+    "id": "column-speck",
     "components": [
-      "column-speck"
+      "text",
+      "image",
+      "button",
+      "title",
+      "creditcardsummary"
     ]
   }
 ]
