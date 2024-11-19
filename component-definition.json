@@ -255,21 +255,6 @@
               }
             }
           }
-        },
-        {
-          "title": "Column Speck",
-          "id": "column-speck",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block/item",
-                "template": {
-                  "name": "Column Speck",
-                  "model": "column-speck"
-                }
-              }
-            }
-          }
         }
       ]
     }
