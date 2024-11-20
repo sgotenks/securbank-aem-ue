@@ -15,7 +15,7 @@ export default function decorate(block) {
         }
       }
 
-      if(classes.includes("speck")){
+      if(classes.indexOf("speck") > -1){
         const temp = document.createElement('div');
         temp.innerHTML = `<div class="sc-readMore">
         <a href="#"><span>to the recipe</span></a></div>`;
