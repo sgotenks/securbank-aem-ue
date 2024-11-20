@@ -155,23 +155,19 @@
         "label": "Rows"
       },
       {
-        "component": "multiselect",
+        "component": "select",
         "name": "classes",
         "label": "Style",
         "valueType": "string",
+        "value": "",
         "options": [
           {
-            "name": "Theme",
-            "children": [
-              {
-                "name": "Default",
-                "value": "default"
-              },
-              {
-                "name": "Speck",
-                "value": "speck"
-              }
-            ]
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Speck",
+            "value": "speck"
           }
         ]
       }    
