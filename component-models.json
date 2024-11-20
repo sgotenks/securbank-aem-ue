@@ -153,7 +153,30 @@
         "name": "rows",
         "value": "",
         "label": "Rows"
-      }
+      },
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "valueType": "string",
+        "required": true,
+        "maxSize": 3,
+        "options": [
+          {
+            "name": "Theme",
+            "children": [
+              {
+                "name": "Default",
+                "value": "default"
+              },
+              {
+                "name": "Speck",
+                "value": "speck"
+              }
+            ]
+          }
+        ]
+      }    
     ]
   },
   {
@@ -374,25 +397,6 @@
         "value": "master",
         "label": "Variation",
         "valueType": "string"
-      }
-    ]
-  },
-  {
-    "id": "columns-speck",
-    "fields": [
-      {
-        "component": "text-input",
-        "valueType": "number",
-        "name": "columns-speck",
-        "value": "",
-        "label": "Columns Speck"
-      },
-      {
-        "component": "text-input",
-        "valueType": "number",
-        "name": "rows",
-        "value": "",
-        "label": "Rows"
       }
     ]
   }
