@@ -1,6 +1,7 @@
 export default function decorate(block) {
   const cols = [...block.firstElementChild.children];
   block.classList.add(`columns-${cols.length}-cols`);
+  const classes =  block.classList;
 
   // setup image columns
   [...block.children].forEach((row) => {
@@ -12,6 +13,13 @@ export default function decorate(block) {
           // picture is only content in column
           picWrapper.classList.add('columns-img-col');
         }
+      }
+
+      if(classes.includes("speck")){
+        const temp = document.createElement('div');
+        temp.innerHTML = `<div class="sc-readMore">
+        <a href="#"><span>to the recipe</span></a></div>`;
+        col.append(temp.children.item(0));
       }
     });
   });
