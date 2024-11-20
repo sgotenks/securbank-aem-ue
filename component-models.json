@@ -153,23 +153,6 @@
         "name": "rows",
         "value": "",
         "label": "Rows"
-      },
-      {
-        "component": "select",
-        "name": "classes",
-        "label": "Style",
-        "valueType": "string",
-        "value": "",
-        "options": [
-          {
-            "name": "Default",
-            "value": ""
-          },
-          {
-            "name": "Speck",
-            "value": "speck"
-          }
-        ]
       }    
     ]
   },
