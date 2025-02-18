@@ -31,6 +31,7 @@
       "columns",
       "feature",
       "video",
+      "carousel",
       "forex",
       "map",
       "offer",
@@ -38,6 +39,10 @@
       "fragment",
       "faq"
     ]
+  },
+  {
+    "id": "carousel",
+    "components": ["carousel-item"]
   },
   {
     "id": "cards",
