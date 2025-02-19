@@ -323,7 +323,7 @@
       {
         "component": "multiselect",
         "name": "classes",
-        "value": "align-right",
+        "value": ["align-right"],
         "label": "Style",
         "valueType": "string",
         "options": [
