@@ -179,7 +179,7 @@ button:disabled, button:disabled:hover {
 a.button.secondary, button.secondary {
   background-color: #e84e10;
   border: 2px solid currentcolor;
-  color: var(--text-color)
+  color: white;
 }
 
 main img {
