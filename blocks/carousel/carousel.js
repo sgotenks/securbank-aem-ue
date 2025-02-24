@@ -27,7 +27,7 @@ export function startInterval(block) {
 
         indicator.style.width = '0';
       }
-    }, interval / 100);
+    }, interval / 25);
   }
 }
 
