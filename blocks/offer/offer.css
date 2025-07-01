@@ -104,7 +104,7 @@
 
   .banner-content .banner-logo {
     display: none;
-    max-height: 50px;
+    max-height: 200px;
     }
 
   @media (width >= 600px) {
@@ -120,7 +120,7 @@
     background-position: center;
     background-repeat: no-repeat;
     /*background-size: 191px 53px;*/
-    background-size: 80px 80px;
+    background-size: 150px 150px;
   }
 }
 
