@@ -275,6 +275,98 @@
     ]
   },
   {
+    "id": "hero2",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "multiselect",
+        "valueType": "string",
+        "name": "classes",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Size",
+            "children": [
+              {
+                "name": "Small",
+                "value": "small"
+              },
+              {
+                "name": "Medium",
+                "value": "medium"
+              },
+              {
+                "name": "Large",
+                "value": "large"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "heading",
+        "label": "Heading",
+        "value": ""
+      },
+      {
+        "component": "select",
+        "name": "headingType",
+        "value": "",
+        "label": "Heading Type",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "h1",
+            "value": "h1"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "name": "hero_text",
+        "value": "",
+        "label": "Description",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "hero_linkTitle",
+        "label": "Button Title Attribute",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "hero_linkText",
+        "label": "Button Text",
+        "value": ""
+      },
+      {
+        "component": "aem-content",
+        "name": "hero_link",
+        "value": "",
+        "label": "Button Link",
+        "valueType": "string"
+      }
+    ]
+  },  
+  {
     "id": "teaser",
     "fields": [
       {
@@ -473,6 +565,112 @@
     ]
   },
   {
+    "id": "carousel2",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "value": "",
+        "label": "Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Height",
+            "children": [
+              {
+                "name": "Standard",
+                "value": ""
+              },
+              {
+                "name": "Max Height",
+                "value": "max-height"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "carousel2-item",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "value": "align-right",
+        "label": "Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Alignment",
+            "children": [
+              {
+                "name": "Left",
+                "value": ""
+              },
+              {
+                "name": "Right",
+                "value": "align-right"
+              },
+              {
+                "name": "Center",
+                "value": "align-center"
+              }
+            ]
+          },
+          {
+            "name": "Type",
+            "children": [
+              {
+                "name": "Dark",
+                "value": "bg-light"
+              },
+              {
+                "name": "Light",
+                "value": "bg-dark"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "media_cont",
+        "label": "Background Image Or Video",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "media_contAlt",
+        "value": "",
+        "label": "Bacgkround Alt"
+      },
+      {
+        "component": "richtext",
+        "name": "content_text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "content_linkText",
+        "label": "Button Text",
+        "value": ""
+      },
+      {
+        "component": "aem-content",
+        "name": "content_link",
+        "value": "",
+        "label": "Button Link",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "feature",
     "fields": [
       {
@@ -548,6 +746,41 @@
       }
     ]
   },
+  {
+  "id": "separator",
+  "fields": [
+    {
+      "component": "text-input",
+      "name": "id",
+      "label": "ID",
+      "valueType": "string",
+      "required": false
+    },
+    {
+      "component": "select",
+      "name": "style",
+      "label": "Style",
+      "valueType": "string",
+      "options": [
+        { "name": "Solid", "value": "solid" },
+        { "name": "Dashed", "value": "dashed" },
+        { "name": "Dotted", "value": "dotted" }
+      ]
+    },
+    {
+      "component": "number",
+      "name": "thickness",
+      "label": "Thickness (px)",
+      "valueType": "number",
+      "value": 1
+    },
+    {
+      "component": "text-input",
+      "name": "color",
+      "label": "Color",
+      "valueType": "string",
+      "value": "#cccccc"
+    },
   {
     "id": "featurearticles",
     "fields": [

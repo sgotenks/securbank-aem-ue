@@ -1,0 +1,15 @@
+.block.separator {
+  width: 100%;
+  padding: 0;
+  margin: 2rem 0;
+  background: none;
+  box-sizing: border-box;
+}
+
+.separator-rule {
+  border: none;
+  border-top: 1px solid var(--separator-color, #e0e0e0);
+  margin: 0;
+  width: 100%;
+  height: 0;
+}
