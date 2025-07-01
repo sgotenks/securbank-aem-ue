@@ -110,7 +110,8 @@
   .banner-content .banner-logo {
     display: block;
     width: 400px;
-    background-image: url("/icons/unes-logo.png");
+    background-image: ; url("/icons/Eurospin_New_Logo.svg")
+    /*background-image: url("/icons/unes-logo.png");*/
     /*background-image: url("/icons/Sudtirol_Logo.png");*/
     /*background-image: url("/icons/NTV_logo.png");*/
     /*background-image: url("/icons/securbank_logo.svg");*/
