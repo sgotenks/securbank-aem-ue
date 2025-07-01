@@ -33,7 +33,7 @@
 }
 
 .carousel.max-height .carousel-slide {
-  min-height: min(65rem, calc(100svh - var(--nav-height)));
+  min-height: min(100rem, calc(100svh - var(--nav-height)));
 }
 
 .carousel .carousel-slide:has(.carousel-slide-content[data-align='center']) {
