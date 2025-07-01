@@ -107,6 +107,21 @@
           }
         },
         {
+          "title": "Hero2",
+          "id": "hero2",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Hero2",
+                  "model": "hero2"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Teaser",
           "id": "teaser",
           "plugins": {

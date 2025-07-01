@@ -275,6 +275,98 @@
     ]
   },
   {
+    "id": "hero2",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "multiselect",
+        "valueType": "string",
+        "name": "classes",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Size",
+            "children": [
+              {
+                "name": "Small",
+                "value": "small"
+              },
+              {
+                "name": "Medium",
+                "value": "medium"
+              },
+              {
+                "name": "Large",
+                "value": "large"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "heading",
+        "label": "Heading",
+        "value": ""
+      },
+      {
+        "component": "select",
+        "name": "headingType",
+        "value": "",
+        "label": "Heading Type",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "h1",
+            "value": "h1"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "name": "hero2_text",
+        "value": "",
+        "label": "Description",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "hero2_linkTitle",
+        "label": "Button Title Attribute",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "hero2_linkText",
+        "label": "Button Text",
+        "value": ""
+      },
+      {
+        "component": "aem-content",
+        "name": "hero2_link",
+        "value": "",
+        "label": "Button Link",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "teaser",
     "fields": [
       {
