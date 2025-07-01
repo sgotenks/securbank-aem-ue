@@ -110,7 +110,7 @@
   .banner-content .banner-logo {
     display: block;
     width: 400px;
-    background-image: ; url("/icons/Eurospin_logo.png")
+    background-image: url("/icons/Eurospin_logo.png");
     /*background-image: url("/icons/unes-logo.png");*/
     /*background-image: url("/icons/Sudtirol_Logo.png");*/
     /*background-image: url("/icons/NTV_logo.png");*/
