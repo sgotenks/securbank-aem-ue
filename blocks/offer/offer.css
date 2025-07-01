@@ -104,6 +104,7 @@
 
   .banner-content .banner-logo {
     display: none;
+    max-height: 50;
     }
 
   @media (width >= 600px) {
