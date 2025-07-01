@@ -33,6 +33,7 @@
       "feature",
       "video",
       "carousel",
+      "carousel2",
       "teaser",
       "separator",
       "forex",
@@ -46,6 +47,10 @@
   {
     "id": "carousel",
     "components": ["carousel-item"]
+  },
+  {
+    "id": "carousel2",
+    "components": ["carousel2-item"]
   },
   {
     "id": "cards",
