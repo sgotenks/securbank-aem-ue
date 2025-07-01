@@ -119,7 +119,8 @@
     /*background-image: url("/icons/securbank_logo.svg");*/
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 191px 53px;
+    /*background-size: 191px 53px;*/
+    background-size: 200px 100px;
   }
 }
 
